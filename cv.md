@@ -4,7 +4,7 @@
 
 * Email: valiantsin.kryvenka@gmail.com
 * phone: +375296136716
-* GitHub: https://github.com/OdinVarg
+* GitHub: [OdinVarg](https://github.com/OdinVarg)
 
 ## My Goal
 
