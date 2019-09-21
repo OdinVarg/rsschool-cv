@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>HTML, CSS & Git Basics</title>
 </head>
 <body>
-    <h1>Valiantsin Kryvenka</h1>
-    <h2>Contact me:</h2>
-    <ul>
-        <li>Email: valiantsin.kryvenka@gmail.com</li>
-        <li>phone: +375296136716</li>
-        <li>GitHub: <a href="https://github.com/OdinVarg">OdinVarg</a> </li>
-    </ul>
-    <h2>My Goal</h2>
-        <p>I set a goal - to become an IT developer in a year. 
-            Three months ago, I began to study independently on the Frontend developer. 
-            In addition to training, I have a non-IT job. I organize my time to have time to learn. 
-            I believe that the future is for IT. 
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#contact">Contact me</a></li>
+                <li><a href="#goal">My Goal</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english">English</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img class="foto" src="img/foto.jpg" alt="My foto" width="225" height="150">
+        </div>
+    </header>
+    <main>
+        <h1>Valiantsin Kryvenka</h1>
+        <h2 id="contact">Contact info</h2>
+        <ul>
+            <li><b>Email:</b> valiantsin.kryvenka@gmail.com</li>
+            <li><b>phone:</b> +375296136716</li>
+            <li><b>GitHub:</b> <a href="https://github.com/OdinVarg">OdinVarg</a> </li>
+        </ul>
+        <h2 id="goal">My Goal</h2>
+        <p>I set a goal - to become an IT developer in a year.
+            Three months ago, I began to study independently on the Frontend developer.
+            In addition to training, I have a non-IT job. I organize my time to have time to learn.
+            I believe that the future is for IT.
             I like new technologies and I am constantly learning something new.
         </p>
-    <h2>Skills</h2>
+        <h2 id="skill">Skills</h2>
         <ul>
             <li>HTML, CSS (base)</li>
             <li>Java Script (base)</li>
             <li>Git</li>
         </ul>
-    <h2>Experience</h2>
+        <h2 id="experience">Experience</h2>
         <ul>
             <li>WorkShop <a href="https://github.com/OdinVarg/Amazonka">Project Amazonka</a> </li>
         </ul>
-    <h2>Education</h2>
+        <h2 id="education">Education</h2>
         <p>Graduated from Minsk State Higher Flight Technical College in 1996</p>
-    <h2>English</h2>
-        <p>My English is now at level A1 (Elementary). I studied English at school. 
-            And technical English in college. 
+        <h2 id="english">English</h2>
+        <p>My English is now at level A1 (Elementary). I studied English at school.
+            And technical English in college.
             Currently practicing in Duolingo.
         </p>
+    </main>
+    <footer>
+        <p>&copy; 2019 Valiantsin Kryvenka</p>
+    </footer>
 </body>
+
 </html>
