@@ -1,0 +1,66 @@
+html {
+  background-color: rgb(241, 238, 238);
+}
+
+body {
+  width: 1024px;
+  margin: 0 auto;
+
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+
+  background-color: rgb(223, 243, 250);
+}
+
+nav {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 20px;
+
+  text-align: center;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 40px;
+}
+
+div {
+  text-align: center;
+}
+
+main ul {
+  margin-left: 40px;
+}
+
+.menu {
+  margin: 0 auto;
+
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  padding: 1em;
+
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+
+  font-size: 0.8em;
+  text-align: center;
+}
